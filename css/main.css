@@ -1,0 +1,256 @@
+/* Configurações Gerais***/
+
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+   background: var(--preta);
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: #fff;
+
+}
+
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+        
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+h5 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px ;
+}
+
+header nav a:hover {
+    color: #fff;
+    background-color: #E50914;
+    padding: 10px 5px;
+    border-radius: 6px;
+    
+}
+
+
+/* Configurações Gerais***/
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 80%), url("../img/lotr1.jpg");
+    height: 400px;
+    background-size: cover;
+    padding-left: 5px;
+ /*Botões**/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 20px;
+    padding-left: 5px;
+    text-align: justify;
+    font-size: 17px;
+    color: white;
+    
+}
+
+.filme-principal .container {
+    padding-top: 1px;
+}
+
+.titulo {
+    margin-top: 5px;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 15px;
+}
+
+
+.botao {
+    background-color: rgba(250, 50, 50, 0.9);
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    border: 1px solid black;
+    
+    padding: 15px 20px;
+    margin-right: 2px;
+    font-size: 11px;
+    width: 200px;
+
+    cursor: pointer;
+    transition: .5s ease all;
+    
+        
+}
+
+.botao:hover {
+    border:1px solid var(--preta);
+    background: #fff;
+    color:var(--vermelho) ;
+    
+    
+}
+
+.botao i{
+    margin-right: 8px;
+    height: 4px;
+}
+
+.botao a {
+    text-decoration: none;
+    color:#fff ;
+}
+
+.destaque {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 10px 5px;
+    font-size: 25px;
+    text-align: left;
+    
+    font-weight:bold ;
+    
+}
+.container {
+    margin-left: 30px;
+}
+
+.filme-principal .container {
+    width: 80%;
+}
+
+.box-filme {
+    height:100%;
+    width:100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
+}
+
+/* Páginas secundárias***/
+
+.poster {
+    background: url(/img/posterserie1.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+
+    font-size: 40px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.poster2 {
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url(/img/posteranime1.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    font-size: 40px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.poster3 {
+    background: url(/img/posterfilme1.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    font-size: 40px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.titulo-poster {
+    padding-top: 10px;
+}
+
+.descricao-poster {
+    width: 60%;
+    font-size: 25px;
+    padding-bottom: 70px;
+    padding-top: 30px;
+}
+
+.detalhe-poster {
+    width: 60%;
+    font-size: 25px;
+    padding-top: 20px;
+    color: rgb(32, 32, 32);
+}
+
+.top {
+    padding: 15px;
+    background-color: #E50914;
+    width: 500%;
+}
+
+
+
+.top-list ul {
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 3px;
+    width: 100%;
+    border: 3px solid #aaa;
+}
+
+.top-list li {
+    width: 400px;
+    padding-right: 10px;
+    
+}
+
+.top-list p {
+    
+    padding-top: 3px;
+}
+
+.top-list img {
+    float: left;
+    padding-right: 2px;
+}
+
+.top-list a {
+    text-decoration: none;
+    color: #aaa;
+}
+
+footer {
+    text-align: center;
+    background-color: #aaa;
+    color: #141414;
+    font-size: 16px;
+    padding-top: 5px;
+}

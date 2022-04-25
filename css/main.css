@@ -156,7 +156,7 @@ header nav a:hover {
 /* Páginas secundárias***/
 
 .poster {
-    background: url(/img/posterserie1.jpg);
+    background: url("../img/posterserie1.jpg");
     width: 100%;
     height: 500px;
     background-repeat: no-repeat;
@@ -167,7 +167,7 @@ header nav a:hover {
 }
 
 .poster2 {
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url(/img/posteranime1.jpg);
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url("../img/posteranime1.jpg");
     width: 100%;
     height: 500px;
     background-repeat: no-repeat;
@@ -179,7 +179,7 @@ header nav a:hover {
 }
 
 .poster3 {
-    background: url(/img/posterfilme1.jpg);
+    background: url("../img/posterfilme1.jpg");
     width: 100%;
     height: 500px;
     background-repeat: no-repeat;
